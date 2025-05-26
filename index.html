@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Manpesz Aircraft Design</title>
+<style>
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9faff;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #0a2e6e;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header img.logo {
+    height: 50px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #1db4f5;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #0a2e6e;
+  }
+
+  h2 {
+    color: #0a2e6e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .btn-primary {
+    background: #1db4f5;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .btn-primary:hover {
+    background: #0a74b8;
+  }
+
+  footer {
+    background: #0a2e6e;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+  }
+
+  /* Responsividade */
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin-left: 0;
+      margin-right: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <img src="logo-placeholder.png" alt="Manpesz Logo" class="logo" />
+  <nav>
+    <a href="#about">About</a>
+    <a href="#project">Project</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="hero" style="text-align:center; margin-bottom: 3rem;">
+    <h1>Manpesz Aircraft Design</h1>
+    <p>Building the future of accessible commercial aviation with bold ideas — by the next generation.</p>
+    <a href="#contact" class="btn-primary">Get in Touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About Manpesz</h2>
+    <p>
+      Manpesz is a youth-led independent initiative focused on the design, engineering, and simulation of innovative commercial aircraft. Our mission is to design affordable, reliable, and efficient regional aircraft, inspired by projects like the Airbus A320 and recent developments by Chinese manufacturers.
+    </p>
+    <p>
+      We combine passion, technology, and creativity to build the next generation of aircraft suited for emerging markets and challenging environments.
+    </p>
+  </section>
+
+  <section id="project">
+    <h2>Current Project – A320-Inspired Narrow Body</h2>
+    <p>
+      Our latest project is a cost-effective, simplified alternative to the Airbus A320, focused on:
+    </p>
+    <ul>
+      <li>Lightweight, robust airframe optimized for low-cost manufacturing</li>
+      <li>Modern glass cockpit with side-stick controls</li>
+      <li>Efficient and maintainable fly-by-wire systems</li>
+      <li>Optimized for regional routes with ~150 passengers</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Interested in learning more or collaborating? Reach out!</p>
+    <ul>
+      <li>Email: <a href="mailto:contact@manpesz.aero">contact@manpesz.aero</a></li>
+      <li>Instagram: <a href="https://instagram.com/manpesz.aero" target="_blank">@manpesz.aero</a></li>
+      <li>LinkedIn: <em>Coming soon</em></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Manpesz Aircraft Design. All rights reserved.
+</footer>
+</body>
+</html>
